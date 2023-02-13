@@ -1,0 +1,54 @@
+img, object{
+    max-height: 100%;
+    max-width: 100%;
+}
+
+#Simple{
+    width: 30%;
+    float: left;
+    margin-left: 2%;
+}
+
+#Progressive{
+    width: 30%;
+    float: left;
+    margin-left: 2%;
+}
+
+#MostProgressive{
+    width: 30%;
+    float: left;
+    margin-left: 2%;
+}
+
+h1{
+    font-size: 1.3rem;
+}
+
+p{
+    font-size: 1rem;
+}
+
+@media all and (max-width: 700px) {
+    #Simple{
+        width: 100%;
+        margin-left: 0%;
+    }
+    #Progressive{
+        width: 100%;
+        margin-left: 0%;
+    }
+    #MostProgressive{
+        width: 100%;
+        margin-left: 0%;
+    }
+    h1{
+        font-size: 1rem;
+    }
+    p{
+        font-size: 0.75rem;
+    }
+    ul li{
+        font-size: 0.75rem;
+    }
+}
